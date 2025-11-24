@@ -1,0 +1,28 @@
+/* 🎨 Área superior fixa do cabeçalho da aplicação */
+.topo {
+  background: #009688; /* 💚 Cor de fundo (verde água) */
+  color: white; /* ⚪ Texto branco para contraste */
+  padding: 15px 0; /* 📏 Espaçamento interno (vertical) */
+  text-align: center; /* 📌 Centraliza o conteúdo e os itens de navegação */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* 🌫 Sombrinha abaixo estilo material design */
+  margin-bottom: 10px; /* 📦 Cria espaço após o header (não ficar colado ao conteúdo) */
+}
+
+/* 🖍 Estilo do título dentro do header */
+.topo h2 {
+  font-weight: 600; /* ➕ Deixa a fonte mais forte */
+}
+
+/* 🔗 Estilos para os links internos do menu */
+.topo nav a {
+  margin: 0 10px; /* 📌 Distância entre os links */
+  color: #e0f7fa; /* 🌊 Azul claro suave para contraste */
+  text-decoration: none; /* 🚫 Sem sublinhado padrão */
+  font-weight: 500; /* ➕ Fonte levemente mais forte */
+}
+
+/* ✨ Efeito hover ao passar com o mouse */
+.topo nav a:hover {
+  color: #fff; /* ⚪ Fica branco no hover */
+  text-decoration: underline; /* ➕ Adiciona sublinhado ao passar */
+}

@@ -1,0 +1,39 @@
+.home-box {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.home-title {
+  font-weight: 700;
+  color: #009688;
+  margin-bottom: 10px;
+}
+
+.home-subtitle {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.home-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.btn-primary {
+  padding: 15px 30px;
+  font-size: 17px;
+  background-color: #009688;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.btn-primary:hover {
+  background-color: #007c74;
+  transform: scale(1.05);
+}
